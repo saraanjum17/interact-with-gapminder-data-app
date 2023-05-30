@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 st.title("Interact with Gapminder Data")
 
 #Imports all the gapminder data as a dataframe
-df = pd.read_csv("Data/gapminder_tidy.csv")
+df = pd.read_csv("gapminder_tidy.csv")
 
 #Defines lists of all the continents and metrics possible
 continents_list = list(df['continent'].unique())
